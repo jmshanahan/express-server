@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-webpack",
+  "version": "1.0.0",
+  "description": "This is a typescript webpack react project. The interesting thing about this project is that it does not use webpack dev server to server up the application. Instead it uses express with webpack middleware. The express webpack middleware is set up in server.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-middleware": "^3.6.2",
+    "webpack-hot-middleware": "^2.24.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmshanahan/express-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmshanahan/express-server/issues"
+  },
+  "homepage": "https://github.com/jmshanahan/express-server#readme"
+}
